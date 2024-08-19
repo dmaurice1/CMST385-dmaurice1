@@ -1,4 +1,4 @@
-name: Deploy HTML Files to AppServiceCMST385
+name: Deploy HTML Files to APPSERVICECMIT385
 on:
   push:
     branches:
@@ -13,4 +13,4 @@ jobs:
       with:
         app-name: 'CMST385-DMaurice1'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AppServiceCMST385 }}
+        publish-profile: ${{ secrets.APPSERVICECMIT385 }}
